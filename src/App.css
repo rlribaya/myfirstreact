@@ -24,6 +24,84 @@
   color: white;
 }
 
+.red-circle {
+    background-color: red;
+    border-radius: 50%;
+    border-color: transparent;
+    width: 5vmin;
+    height: 5vmin;
+    animation: circle-move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    z-index: 3;
+}
+
+.green-circle {
+    background-color: green;
+    border-radius: 50%;
+    border-color: transparent;
+    width: 5vmin;
+    height: 5vmin;
+    animation: circle-move;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    z-index: 2;
+}
+
+.blue-circle {
+    background-color: blue;
+    border-radius: 50%;
+    border-color: transparent;
+    width: 5vmin;
+    height: 5vmin;
+    animation: circle-move;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    z-index: 1;
+}
+
+.yellow-circle {
+    background-color: yellow;
+    border-radius: 50%;
+    border-color: transparent;
+    width: 5vmin;
+    height: 5vmin;
+    animation: circle-move;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    z-index: 0;
+}
+
+@keyframes circle-move {
+    25% {
+        top: 50%;
+        left: 25%;
+    }
+    50% {
+        top: 25%;
+        left: 50%;
+    }
+    75% {
+        top: 50%;
+        left: 75%;
+    }
+}
+
 .App-link {
   color: #61dafb;
 }

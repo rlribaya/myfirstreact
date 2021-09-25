@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+            // ./ means within the same folder
 import './App.css';
 
 function App() {
@@ -9,20 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
-            We're no strangers to love<br/>
-            You know the rules and so do I<br/>
-            A full commitment's what I'm thinking of<br/>
-            You wouldn't get this from any other guy<br/><br/>
-            I just wanna tell you how I'm feeling<br/>
-            Gotta make you understand<br/><br/>
-            Never gonna give you up<br/>
-            Never gonna let you down<br/>
-            Never gonna run around and desert you<br/>
-            Never gonna make you cry<br/>
-            Never gonna say goodbye<br/>
-            Never gonna tell a lie and hurt you
-        </p>
+        <div className="red-circle"></div>
+        <div className="blue-circle"></div>
+        <div className="green-circle"></div>
+        <div className="yellow-circle"></div>
         <a
           className="App-link"
           href="https://reactjs.org"
