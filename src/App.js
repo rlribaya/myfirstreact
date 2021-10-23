@@ -1,6 +1,9 @@
 import logo from './logo.svg';
             // ./ means within the same folder
 import './App.css';
+import Greet from './components/Greet';
+import Button from './components/Button';
+
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Greet></Greet>
+        <Button/>
         <div className="red-circle"></div>
         <div className="blue-circle"></div>
         <div className="green-circle"></div>

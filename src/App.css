@@ -32,6 +32,7 @@
     height: 5vmin;
     animation: circle-move;
     animation-duration: 4s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     position: absolute;
     left: 50%;
