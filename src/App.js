@@ -28,6 +28,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <a href="https://rlribaya.github.io/RandomMathQuestions/"><h1>TRY RANDOM MATH QUESTIONS</h1></a>
+      </div>
     </div>
   );
 }
