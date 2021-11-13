@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Button from './components/Button';
-
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         </p>
         <Greet></Greet>
         <Button/>
+        <Employee/>
         <div className="red-circle"></div>
         <div className="blue-circle"></div>
         <div className="green-circle"></div>
@@ -27,10 +28,11 @@ function App() {
         >
           Learn React
         </a>
+        <br/>
+        <a href="https://rlribaya.github.io/RandomMathQuestions/">
+        <h1>TRY RANDOM MATH QUESTIONS</h1>
+        </a>
       </header>
-      <div>
-        <a href="https://rlribaya.github.io/RandomMathQuestions/"><h1>TRY RANDOM MATH QUESTIONS</h1></a>
-      </div>
     </div>
   );
 }
