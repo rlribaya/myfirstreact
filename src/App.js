@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/Greet';
 import Button from './components/Button';
 import Employee from './components/Employee';
+import Hello from './components/Hello';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </p>
         <Greet></Greet>
         <Button/>
+        <p>{Hello()}</p>
         <Employee/>
         <div className="red-circle"></div>
         <div className="blue-circle"></div>
