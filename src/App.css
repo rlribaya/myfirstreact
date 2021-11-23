@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image:url(https://i.giphy.com/media/yr7n0u3qzO9nG/giphy.webp);
+  background-size: contain;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,9 +32,10 @@
     width: 5vmin;
     height: 5vmin;
     animation: circle-move;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     position: absolute;
     left: 50%;
     top: 75%;
@@ -47,9 +49,10 @@
     width: 5vmin;
     height: 5vmin;
     animation: circle-move;
-    animation-duration: 4s;
-    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     position: absolute;
     left: 50%;
     top: 75%;
@@ -63,9 +66,10 @@
     width: 5vmin;
     height: 5vmin;
     animation: circle-move;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     position: absolute;
     left: 50%;
     top: 75%;
@@ -79,9 +83,10 @@
     width: 5vmin;
     height: 5vmin;
     animation: circle-move;
-    animation-duration: 4s;
-    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-delay: 0.75s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     position: absolute;
     left: 50%;
     top: 75%;
