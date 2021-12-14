@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter } from "react-router-dom"
+import { Routes, Route, HashRouter, Link } from "react-router-dom"
 import AddEmployee from "./AddEmployee"
 import Employee from "./Employee"
 import Home from "./Home"
@@ -17,14 +17,13 @@ const Router = () => {
                 </Routes>
             </HashRouter> */}
             <HashRouter basename='/'>
-            <div>
-                <hr />
-                <Route exact path="/" component={Home} />
-                <Route path="/employees" component={<Employee/>} />
-                <Route path="/add" component={<AddEmployee/>} />
-                <Route path="/edit/:employeeId" component={<AddEmployee/>} />
-                <Route path="*" component={<PageNotFound/>} />
-            </div>
+                <Routes>
+                    <Route exact path="/" element={<Home/>} />
+                    <Route path="/employees" element={<Employee/>} />
+                    <Route path="/add" element={<AddEmployee/>} />
+                    <Route path="/edit/:employeeId" element={<AddEmployee/>} />
+                    <Route path="*" element={<PageNotFound/>} />
+                </Routes>
             </HashRouter>
         </div>
     )
