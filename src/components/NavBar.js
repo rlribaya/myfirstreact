@@ -9,9 +9,9 @@ const NavBar = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="/#/">Home</a>
-                        <a class="nav-link" href="/#/employees">Employees</a>
-                        <a class="nav-link" href="/#/add">Add employee</a>
+                        <a class="nav-link" href="myfirstreact/">Home</a>
+                        <a class="nav-link" href="myfirstreact/#/employees">Employees</a>
+                        <a class="nav-link" href="myfirstreact/#/add">Add employee</a>
                         <a class="nav-link" href="https://rlribaya.github.io/RandomMathQuestions/">
                             Random Math Questions
                         </a>
